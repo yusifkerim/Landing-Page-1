@@ -1,0 +1,36 @@
+nav{
+   position: absolute;
+   padding: 10px;
+   
+}
+
+.menu .logo{
+    width: 100px;
+    height: 30px;
+    margin: 0px 40px auto;
+}
+nav .menu .menu_items ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    margin: 0px 0px auto;
+    padding: 10px;
+   
+}
+
+nav .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu .menu_items ul li{
+    list-style: none;
+    
+}
+nav .menu .menu_items ul li>a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+
+}
